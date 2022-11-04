@@ -17,7 +17,9 @@ province, instead of each day, and only including the cases that occurred when t
 humidity was between the range. In this figure, it is prominent to see that regions with relatively high
 temperatures have more days that has a relative humidity between the 40% to 60% range, leaving them
 with a wider timeframe to have more cases occur, when looking at the total height of each bar.
-
+<p align="center">
+  <img width="460" height="460" src="https://github.com/soneunii/relative-humidity-on-covid-19/raw/main/Figure1.png">
+</p>
 
 ## Number of Components vs. Cumulative Explained Variance 
 In order to check the data’s features, I used a principal component analysis over features 5-10. As
@@ -30,6 +32,10 @@ that the features all together contain 98% of the information. This shows that d
 regression, as it shows that there are limitations for it to not lose significant information while reducing
 the dimensions.
 
+<p align="center">
+  <img width="600" height="460" src="https://github.com/soneunii/relative-humidity-on-covid-19/raw/main/Figure2.png">
+</p>
+
 ## Logistic Regression Coefficients 
 Lastly, Figure 3 shows the variables that were used for the model that predicted the average
 relative humidity (4), and the coefficients that were used for regression. I created two models to determine
@@ -39,6 +45,10 @@ to use the model using only the linear regression, as it scored approximately 9%
 that the maximum temperature (7) of the day has the greatest negative weight on determining the average
 relative humidity (4), yielding -1.58. At the same time, the minimum temperature (6) shows to have the
 greatest positive weight by 1.23.
+
+<p align="center">
+  <img width="700" height="460" src="https://github.com/soneunii/relative-humidity-on-covid-19/raw/main/Figure3.png">
+</p>
 
 Based on the findings in this project, relative humidity levels are only one component that can
 determine whether or not the virus is more likely to spread or not. Under various uncertainties during this
